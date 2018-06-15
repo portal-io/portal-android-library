@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DebugSample</string>
+    <string name="crash">模拟 Crash</string>
+</resources>
