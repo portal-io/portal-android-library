@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">widget</string>
+    <string name="text_loadmore">正在加载...</string>
+    <string name="text_loadmore_end">已加载到最后一页</string>
+    <string name="text_loadmore_success">加载成功...</string>
+    <string name="text_loadmore_fail">加载失败了,请点击重试...</string>
+    <string name="text_loadmore_onloading">正在加载...</string>
+</resources>
