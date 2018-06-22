@@ -1,0 +1,13 @@
+apply plugin: 'com.novoda.bintray-release'
+
+publish {
+    userOrg = 'lizhengshan'
+    repoName = 'portal'
+    groupId = 'com.whaley.core'
+    artifactId = 'bi'
+    publishVersion = '0.3.5'
+    desc = 'portal bi'
+    website = 'https://github.com'
+}
+
+//gradlew clean build bintrayUpload -PbintrayUser=lizhengshan -PbintrayKey=1c654698025ff88f79f603ca0d478f15856eb038 -PdryRun=false
