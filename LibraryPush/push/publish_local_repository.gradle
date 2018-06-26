@@ -5,7 +5,7 @@ publish {
     repoName = 'portal'
     groupId = 'com.whaley.lib'
     artifactId = 'push'
-    publishVersion = '0.0.1'
+    publishVersion = '0.0.2'
     desc = 'portal push'
     website = 'https://github.com'
 }

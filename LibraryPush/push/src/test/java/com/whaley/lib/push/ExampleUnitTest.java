@@ -1,4 +1,4 @@
-package com.whaley.lib.pay;
+package com.whaley.lib.push;
 
 import org.junit.Test;
 

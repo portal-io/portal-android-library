@@ -1,4 +1,4 @@
-package com.whaley.lib.pay;
+package com.whaley.lib.push;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
