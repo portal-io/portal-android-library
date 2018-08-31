@@ -52,6 +52,11 @@ public class RefreshLayout extends SwipeRefreshLayout implements ILoadMoreView,I
         return loadMoreView;
     }
 
+    public LoadMoreView setAdapter(RecyclerView recyclerView, RecyclerView.Adapter adapter, boolean isBottomBar, boolean isAddScrollListener) {
+        loadMoreView = new RecyclerViewLoadMoreView(recyclerView, adapter, isBottomBar, isAddScrollListener);
+        return loadMoreView;
+    }
+
     public void setListener(final com.whaley.core.widget.refresh.OnRefreshListener onRefreshListener) {
         setOnRefreshListener(new OnRefreshListener() {
             @Override
